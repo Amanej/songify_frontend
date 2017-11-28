@@ -6,7 +6,7 @@ import data from './assets/data.json';
 
 const realSongs = data;
 const _songs = realSongs.map((song) =>
-  <Song title={song.title} artist={song.artist} thumbnail={song.thumbnail} media={song.media} />
+  <Song title={song.title} artist={song.artist} thumbnail={song.thumbnail} media={song.media} key={song.title} />
 );
 
 class App extends Component {

@@ -2,21 +2,21 @@
   {
     "title": "Wild Wild West",
     "artist": "Will Smith",
-    "thumbnail": "http://via.placeholder.com/250x150",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/55/Wild_Wild_West_OST.jpg",
     "url": "https://soundcloud.com/wavey-hefner/lil-pump-gucci-gang-prod-bighead-gnealz",
     "media": "http://localhost:8888/assets/rockstar.mp3"
   },
   {
     "title": "Often",
     "artist": "The Weeknd",
-    "thumbnail": "http://via.placeholder.com/250x150",
+    "thumbnail": "https://images.genius.com/7eaf6be556255dff3972593e4ff42eb3.1000x1000x1.jpg",
     "url": "https://soundcloud.com/wavey-hefner/lil-pump-gucci-gang-prod-bighead-gnealz",
     "media": "http://localhost:8888/assets/rockstar.mp3"
   },
   {
-    "title": "Ride or Die",
-    "artist": "Another Lame Musician",
-    "thumbnail": "http://via.placeholder.com/250x150",
+    "title": "Rockstar",
+    "artist": "Post Malone",
+    "thumbnail": "https://images.genius.com/3b554e4d2555965a6fd80c1ef919c19a.1000x1000x1.jpg",
     "url": "https://soundcloud.com/wavey-hefner/lil-pump-gucci-gang-prod-bighead-gnealz",
     "media": "http://localhost:8888/assets/rockstar.mp3"
   },
