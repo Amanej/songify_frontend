@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import Song from './components/song.js';
 import data from './assets/data.json';
@@ -14,12 +14,11 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">SteemCloud</h1>
-        </header>
-        <p className="App-intro">
+          <p className="App-intro">
           Search to find songs, and click to play. Enjoy!
-        </p>
+          </p>
+        </header>
         <ul className="songList">
           {_songs}
         </ul>

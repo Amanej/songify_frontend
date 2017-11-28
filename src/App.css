@@ -4,12 +4,12 @@
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  /*height: 80px;*/
 }
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  /*height: 150px;*/
   padding: 20px;
   color: white;
 }
@@ -27,6 +27,25 @@
   to { transform: rotate(360deg); }
 }
 
+@keyframes playingmusic {
+  0% {
+    background: grey;
+  }
+  50% {
+    background: lightgreen;
+  }
+  80% {
+    background: green;
+  }
+  100% {
+    background: grey;
+  }
+}
+
+h1,h2,h3,h4,h5,p {
+  font-weight: 100;
+}
+
 
 ul.songList {
   list-style-type: none;
@@ -40,7 +59,8 @@ ul.songList > li {
   display: inline-block;
   cursor: pointer;
   padding: 20px;
-  margin-right: 5%;
+  margin-right: 10%;
+
 }
 
 ul.songList > li > img {
@@ -49,4 +69,26 @@ ul.songList > li > img {
 
 ul.songList > li > audio {
   display: none;
+}
+
+ul.songList > li > h4 {
+  position: relative;
+}
+
+ul.songList > li > h4 > span.playingIcon {
+  height: 10px;
+  width: 10px;
+  border-radius: 6px;
+  background: grey;
+
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 30px;
+
+  transition: 2s;
+}
+
+ul.songList > li.live > h4 > span.playingIcon {
+  animation: playingmusic 3s infinite;
 }
