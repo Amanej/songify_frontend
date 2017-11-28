@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Wild Wild West",
+    "artist": "Will Smith",
+    "thumbnail": "http://via.placeholder.com/250x150",
+    "url": "https://soundcloud.com/wavey-hefner/lil-pump-gucci-gang-prod-bighead-gnealz",
+    "media": "http://localhost:8888/assets/rockstar.mp3"
+  },
+  {
+    "title": "Often",
+    "artist": "The Weeknd",
+    "thumbnail": "http://via.placeholder.com/250x150",
+    "url": "https://soundcloud.com/wavey-hefner/lil-pump-gucci-gang-prod-bighead-gnealz",
+    "media": "http://localhost:8888/assets/rockstar.mp3"
+  },
+  {
+    "title": "Ride or Die",
+    "artist": "Another Lame Musician",
+    "thumbnail": "http://via.placeholder.com/250x150",
+    "url": "https://soundcloud.com/wavey-hefner/lil-pump-gucci-gang-prod-bighead-gnealz",
+    "media": "http://localhost:8888/assets/rockstar.mp3"
+  },
+  {
+    "title": "Die or Ride",
+    "artist": "Yet Another Lame Musician",
+    "thumbnail": "http://via.placeholder.com/250x150",
+    "url": "https://soundcloud.com/wavey-hefner/lil-pump-gucci-gang-prod-bighead-gnealz",
+    "media": "http://localhost:8888/assets/rockstar.mp3"
+  }
+]
