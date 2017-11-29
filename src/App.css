@@ -55,11 +55,11 @@ ul.songList {
 }
 
 ul.songList > li {
-  width: 20%;
+  width: 15%;
   display: inline-block;
   cursor: pointer;
   padding: 20px;
-  margin-right: 10%;
+  margin-right: 2.5%;
 
 }
 
@@ -68,6 +68,10 @@ ul.songList > li > img {
 }
 
 ul.songList > li > audio {
+  /*display: none;*/
+}
+
+.individualSongPlayer {
   display: none;
 }
 

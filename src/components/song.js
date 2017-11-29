@@ -44,8 +44,8 @@ class song extends Component {
       <li className={this.state.playing ? 'live' : 'notlive'} >
         <h4><span className="playingIcon"></span> {this.props.title}</h4>
         <img src={this.props.thumbnail} alt={this.props.title} onClick={this.handleClick} playing={this.state.playing.toString()} />
-        <h5>By {this.props.artist}</h5>
-        <audio controls="controls" src={this.props.media} ref="audio" />
+        <h5 onClick={this.props.handler}>By {this.props.artist}</h5>
+        <audio className="individualSongPlayer" controls="controls" src={this.props.media} ref="audio" />
       </li>
     );
   }

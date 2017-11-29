@@ -7,6 +7,13 @@
     "media": "http://localhost:8888/assets/rockstar.mp3"
   },
   {
+    "title": "Break Bread ft King Vory",
+    "artist": "Bryson Tiller",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/en/5/55/Wild_Wild_West_OST.jpg",
+    "url": "https://soundcloud.com/wavey-hefner/lil-pump-gucci-gang-prod-bighead-gnealz",
+    "media": "http://localhost:8888/assets/break_bread.mp3"
+  },
+  {
     "title": "Often",
     "artist": "The Weeknd",
     "thumbnail": "https://images.genius.com/7eaf6be556255dff3972593e4ff42eb3.1000x1000x1.jpg",
@@ -25,6 +32,6 @@
     "artist": "Yet Another Lame Musician",
     "thumbnail": "http://via.placeholder.com/250x150",
     "url": "https://soundcloud.com/wavey-hefner/lil-pump-gucci-gang-prod-bighead-gnealz",
-    "media": "http://localhost:8888/assets/rockstar.mp3"
+    "media": "http://localhost:8888/assets/rap.mp3"
   }
 ]
